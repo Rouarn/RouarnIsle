@@ -1,0 +1,64 @@
+:root {
+  /* animal-island-vue 设计变量（与组件库保持一致的自然手绘风） */
+  --ai-primary: #19c8b9;
+  --ai-primary-hover: #3dd4c6;
+  --ai-success: #6fba2c;
+  --ai-warning: #f5c31c;
+  --ai-text: #794f27;
+  --ai-text-secondary: #9f927d;
+  --ai-border: #aaa69d;
+  --ai-border-light: #e8e2d6;
+  --ai-bg: #f8f8f0;
+  --ai-bg-secondary: #f0e8d8;
+  --ai-bg-note: #fffbe7;
+  --ai-shadow-soft: rgba(61, 52, 40, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--ai-bg);
+  color: var(--ai-text);
+  font-family:
+    Nunito,
+    'Noto Sans SC',
+    'Zen Maru Gothic',
+    'HarmonyOS Sans SC',
+    'MiSans',
+    -apple-system,
+    'PingFang SC',
+    'Hiragino Sans GB',
+    'Microsoft YaHei',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: min(1080px, 92%);
+  margin: 0 auto;
+}
+
+section[id] {
+  scroll-margin-top: 88px;
+}
+
+.section-block {
+  padding: 64px 0;
+}
