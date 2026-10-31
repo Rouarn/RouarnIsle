@@ -33,7 +33,7 @@ export const site = {
   siteUrl: "https://woyuxiaji.cn/",
   /** 可选项：邮箱与 ICP 备案号，留空则不展示 */
   email: "",
-  icp: "",
+  icp: "豫ICP备2026046995号-1",
 };
 
 /** 我开发的项目 */
